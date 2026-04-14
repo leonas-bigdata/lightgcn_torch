@@ -70,8 +70,8 @@ These materials serve as **self-proof** that all experiments were conducted by o
 | Notebook             | Description                        | Link |
 |----------------------|------------------------------------|------|
 | `lightgcn_exp`       | Initial experimental run           | https://drive.google.com/drive/folders/1Iq_NvTZkTy8MYP-0DPvymDHFO2nDsFK_?usp=drive_link |
-| `lightgcn_rerun_1`   | Second run for verification        | https://drive.google.com/drive/folders/1l93GDNQzRcL9pg4eR6vriTOxrzcUY_G5?usp=drive_link |
-| `lightgcn_rerun_2`   | Third run for consistency checking | https://drive.google.com/drive/folders/12VtE9kucBlikg8x8cVtrnuwBRTTBC68d?usp=drive_link |
+| `lightgcn_rerun_1`   | Run the second time        | https://drive.google.com/drive/folders/1l93GDNQzRcL9pg4eR6vriTOxrzcUY_G5?usp=drive_link |
+| `lightgcn_rerun_2`   | Run the third time | https://drive.google.com/drive/folders/12VtE9kucBlikg8x8cVtrnuwBRTTBC68d?usp=drive_link |
 
 These notebooks contain:
 
