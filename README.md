@@ -1,4 +1,4 @@
-# LightGCN-PyTorch (Team Fork)
+# LightGCN-PyTorch
 
 This repository is our team’s fork of the original **LightGCN-PyTorch** implementation, based on the SIGIR 2020 paper by Xiangnan He et al.
 
@@ -50,6 +50,15 @@ This implementation supports four widely used benchmark datasets and one custom 
 We conducted careful experiments using the PyTorch version of LightGCN.  
 All experimental runs, logs, and metric tracking are stored in the `exp/` directory as Jupyter notebooks.
 
+To ensure transparency and academic integrity, we provide public Google Drive links containing:
+
+- The source code from this repository that we uploaded on Google Drive to mount for experiment running
+- Execution logs
+- Output results
+- Saved checkpoints and metrics
+
+These materials serve as **self-proof** that all experiments were conducted by our team on **Google Colab**, without reusing results from external sources. Accessing each link will lead to a folder with three folder LightGCN, UltraGCN and LayerGCN. The source code for this repository is uploaded inside the LightGCN folder for all three links
+
 ### Environment
 
 - Experiments were executed on **Google Colab**
@@ -58,11 +67,11 @@ All experimental runs, logs, and metric tracking are stored in the `exp/` direct
 
 ### Experiment Notebooks
 
-| Notebook               | Description                          |
-|------------------------|--------------------------------------|
-| `lightgcn_exp`         | Initial experimental run             |
-| `lightgcn_rerun_1`     | Second run for verification          |
-| `lightgcn_rerun_2`     | Third run for consistency checking   |
+| Notebook             | Description                        | Link |
+|----------------------|------------------------------------|------|
+| `lightgcn_exp`       | Initial experimental run           | https://drive.google.com/drive/folders/1Iq_NvTZkTy8MYP-0DPvymDHFO2nDsFK_?usp=drive_link |
+| `lightgcn_rerun_1`   | Second run for verification        | https://drive.google.com/drive/folders/1l93GDNQzRcL9pg4eR6vriTOxrzcUY_G5?usp=drive_link |
+| `lightgcn_rerun_2`   | Third run for consistency checking | https://drive.google.com/drive/folders/12VtE9kucBlikg8x8cVtrnuwBRTTBC68d?usp=drive_link |
 
 These notebooks contain:
 
@@ -76,7 +85,7 @@ These notebooks contain:
 
 This fork was created for:
 
-- Academic study and experimentation
+- Academic study and experimentation across 5 datasets, each dataset is executed three times to get the average score 
 - Understanding LightGCN behavior across datasets
 - Ensuring reproducible results
 - Extending the original implementation with additional datasets and structured experiment tracking
@@ -87,4 +96,5 @@ This fork was created for:
 
 We sincerely thank the authors of the original LightGCN paper and repository for making their work publicly available.
 
-If you use this codebase, please consider citing the original paper.
+Please consider citing the original paper when using this codebase.
+
