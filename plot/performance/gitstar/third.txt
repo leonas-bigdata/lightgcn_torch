@@ -1,43 +1,3 @@
-Cpp extension not loaded
->>SEED: 2026
-loading [../data/gitstar]
-994912 interactions for training
-6771 interactions for testing
-gitstar Sparsity : 0.012626940279470936
-gitstar is ready to go
-===========config================
-{'A_n_fold': 100,
- 'A_split': False,
- 'bigdata': False,
- 'bpr_batch_size': 2048,
- 'decay': 0.0001,
- 'dropout': 0,
- 'keep_prob': 0.6,
- 'latent_dim_rec': 64,
- 'lightGCN_n_layers': 3,
- 'lr': 0.001,
- 'multicore': 0,
- 'pretrain': 0,
- 'test_u_batch_size': 100}
-cores for test: 6
-comment: lgn
-tensorboard: 1
-LOAD: 0
-Weight path: ./checkpoints
-Test Topks: [20]
-using bpr loss
-===========end===================
-use NORMAL distribution initilizer
-loading adjacency matrix
-generating adjacency matrix
-costing 10.854572534561157s, saved norm_mat...
-/content/drive/MyDrive/model_exp/LightGCN/code/dataloader.py:330: UserWarning: torch.sparse.SparseTensor(indices, values, shape, *, device=) is deprecated.  Please use torch.sparse_coo_tensor(indices, values, shape, dtype=, device=). (Triggered internally at /pytorch/torch/csrc/utils/tensor_new.cpp:654.)
-  return torch.sparse.FloatTensor(index, data, torch.Size(coo.shape))
-don't split the matrix
-lgn is already to go(dropout:0)
-load and save to /content/drive/MyDrive/model_exp/LightGCN/code/checkpoints/lgn-gitstar-3-64.pth.tar
-[TEST]
-{'precision': array([0.00011077]), 'recall': array([0.00221533]), 'ndcg': array([0.00082652])}
 EPOCH[1/1000] loss0.662-|Sample:13.52| | T:26.11s | RAM:1716.2MB | CPU:10.2% | VRAM:64.4MB
 EPOCH[2/1000] loss0.517-|Sample:13.44| | T:22.47s | RAM:1727.7MB | CPU:10.3% | VRAM:64.4MB
 EPOCH[3/1000] loss0.427-|Sample:13.23| | T:22.32s | RAM:1732.5MB | CPU:10.9% | VRAM:64.4MB
@@ -1236,4 +1196,3 @@ EPOCH[997/1000] loss0.066-|Sample:13.18| | T:22.45s | RAM:1823.8MB | CPU:10.8% |
 EPOCH[998/1000] loss0.067-|Sample:13.16| | T:22.42s | RAM:1822.8MB | CPU:10.7% | VRAM:64.4MB
 EPOCH[999/1000] loss0.067-|Sample:13.19| | T:22.46s | RAM:1823.2MB | CPU:10.5% | VRAM:64.4MB
 EPOCH[1000/1000] loss0.067-|Sample:13.19| | T:22.46s | RAM:1789.3MB | CPU:10.0% | VRAM:64.4MB
-Total runtime: 378.81 minutes
