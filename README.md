@@ -31,6 +31,22 @@ Our fork focuses on:
 
 ---
 
+## 📦 Important Task 3 Experiments & Visualize folders
+
+- `exp` folder store our experiments notebooks file
+
+- `plot` folder store our visualization and extracted copied logs from the notebooks files
+
+---
+
+## 🛠️ Key Modifications in This Fork
+
+- Update the `register.py`: Add trainable datasetname list `['gowalla', 'yelp2018', 'amazon-book', 'movielen', 'gitstar']` and remove LastFM condition
+
+- Update the `world.py`: Set `all_dataset = ['gowalla', 'yelp2018', 'amazon-book', 'movielen', 'gitstar']`
+
+---
+
 ## 📂 Supported Datasets
 
 This implementation supports four widely used benchmark datasets and one custom dataset prepared by our team:
